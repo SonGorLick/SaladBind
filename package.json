@@ -2,7 +2,7 @@
   "name": "saladbind",
   "version": "1.7.4",
   "description": "BIND-ing the good features from other projects together (and fucking nuking the bad ones)",
-  "main": "src/index.js",
+  "main": "main.js",
   "scripts": {
     "start": "node src/index",
     "compile": "pkg src/index.js --targets node16-linux-x64,node16-macos-x64,node16-win-x64 --output bin/saladbind",
@@ -35,6 +35,7 @@
     "systeminformation": "^5.11.3"
   },
   "devDependencies": {
+    "electron": "^17.1.2",
     "pkg": "^5.5.2"
   }
 }

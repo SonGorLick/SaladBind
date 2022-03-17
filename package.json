@@ -1,7 +1,7 @@
 {
-  "name": "saladbind",
+  "name": "saladbindbid",
   "version": "1.7.4",
-  "description": "BIND-ing the good features from other projects together (and fucking nuking the bad ones)",
+  "description": "stupid",
   "main": "main.js",
   "scripts": {
     "start": "npx electron .",

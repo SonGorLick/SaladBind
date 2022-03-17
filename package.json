@@ -4,7 +4,7 @@
   "description": "BIND-ing the good features from other projects together (and fucking nuking the bad ones)",
   "main": "main.js",
   "scripts": {
-    "start": "node src/index",
+    "start": "npx electron .",
     "compile": "pkg src/index.js --targets node16-linux-x64,node16-macos-x64,node16-win-x64 --output bin/saladbind",
     "preversion": "node internal/alfurVersionValidator.js",
     "postversion": "git push && git push --tags && node internal/alfurAUR.js"
